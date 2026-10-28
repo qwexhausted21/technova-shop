@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechNova | Интернет-магазин электроники</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container header__inner">
+            <a href="index.html" class="logo">TechNova</a>
+            <nav class="nav">
+                <a href="index.html" class="nav__link active">Главная</a>
+                <a href="catalog.html" class="nav__link">Каталог</a>
+            </nav>
+            <button class="cart-btn">
+                🛒 <span class="cart-count" id="cart-count">0</span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h1>Технологии будущего уже здесь</h1>
+                <p>Смартфоны, ноутбуки и гаджеты по лучшим ценам. Бесплатная доставка от 5000 ₽.</p>
+                <a href="catalog.html" class="btn">Перейти в каталог</a>
+            </div>
+        </section>
+
+        <section class="container">
+            <h2 class="page-title">Популярные товары</h2>
+            <div class="product-grid">
+                
+                <!-- Товар 1 -->
+                <div class="product-card">
+                    <a href="product.html">
+                        <img src="https://images.unsplash.com/photo-1593642632823-8f785ba67e45?q=80&w=500&auto=format&fit=crop" alt="Ноутбук">
+                        <h3 class="product-card__title">Ноутбук Apple MacBook Air M2</h3>
+                    </a>
+                    <div class="product-card__price">95 000 ₽</div>
+                    <button class="btn btn--primary add-to-cart" data-id="1">В корзину</button>
+                </div>
+
+                <!-- Товар 2 -->
+                <div class="product-card">
+                    <a href="product.html">
+                        <img src="https://images.unsplash.com/photo-1598327105666-5b89351aff97?q=80&w=500&auto=format&fit=crop" alt="Смартфон">
+                        <h3 class="product-card__title">Смартфон iPhone 15 Pro Max</h3>
+                    </a>
+                    <div class="product-card__price">120 000 ₽</div>
+                    <button class="btn btn--primary add-to-cart" data-id="2">В корзину</button>
+                </div>
+
+                <!-- Товар 3 -->
+                <div class="product-card">
+                    <a href="product.html">
+                        <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=500&auto=format&fit=crop" alt="Наушники">
+                        <h3 class="product-card__title">Наушники Sony WH-1000XM5</h3>
+                    </a>
+                    <div class="product-card__price">35 000 ₽</div>
+                    <button class="btn btn--primary add-to-cart" data-id="3">В корзину</button>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 TechNova. Все права защищены.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

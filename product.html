@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MacBook Air M2 | TechNova</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container header__inner">
+            <a href="index.html" class="logo">TechNova</a>
+            <nav class="nav">
+                <a href="index.html" class="nav__link">Главная</a>
+                <a href="catalog.html" class="nav__link">Каталог</a>
+            </nav>
+            <button class="cart-btn">
+                🛒 <span class="cart-count" id="cart-count">0</span>
+            </button>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="product-page">
+            <!-- Левая часть: картинка -->
+            <div>
+                <img src="https://images.unsplash.com/photo-1593642632823-8f785ba67e45?q=80&w=1000&auto=format&fit=crop" alt="MacBook Air M2">
+            </div>
+            
+            <!-- Правая часть: описание -->
+            <div class="product-info">
+                <h1>Ноутбук Apple MacBook Air M2</h1>
+                <div class="product-info__price">95 000 ₽</div>
+                <p class="product-info__desc">
+                    Супертонкий и невероятно быстрый ноутбук. Чип M2 обеспечивает невероятную производительность и потрясающую автономность до 18 часов. 
+                    Идеально подходит для работы, учебы и творчества.
+                </p>
+                <button class="btn btn--primary add-to-cart" data-id="1">Добавить в корзину</button>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 TechNova. Все права защищены.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
